@@ -1,0 +1,17 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "poppins";
+}
+
+.book1 {
+  background-color: aquamarine;
+  width: 80%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 20px;
+  padding: 50px;
+  display: block;
+}/*# sourceMappingURL=ourbooks.css.map */
