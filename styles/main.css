@@ -1,0 +1,10 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+   width: 100%;
+}
+
+.book1,.book2,.book3,.book4,.book5 {
+    width: 100%;
+    padding-right: 10px;
+}
