@@ -35,6 +35,19 @@ body {
     display: inline-block;
     margin: 0 .25rem;
     content: "→";
+    
+}
+
+.breadcrumb li {
+    font-weight: bold;
+    font-size: 30px;
+   
+}
+    
+
+.breadcrumb a {
+  text-decoration: none;
+  color: black;
 }
     
 
