@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   box-sizing: border-box;
   margin: 0;
@@ -14,4 +15,24 @@ body {
   margin: 20px;
   padding: 50px;
   display: block;
+}
+
+.breadcrumb {
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 0 0.5rem;
+}
+
+.breadcrumb ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumb li:not(:last-child)::after {
+  display: inline-block;
+  margin: 0 0.25rem;
+  content: "→";
 }/*# sourceMappingURL=ourbooks.css.map */
