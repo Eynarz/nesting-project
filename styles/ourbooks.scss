@@ -50,6 +50,30 @@ body {
   color: black;
 }
     
+.wrap {
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+@media screen and  (max-width:308px) {
+    .wrap {
+        display:block;
+    }
+}
+
+
+@media screen and  (max-width:768px) {
+    .wrap {
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-gap:5px;
+       
+    }
+}
+
 
 
 
