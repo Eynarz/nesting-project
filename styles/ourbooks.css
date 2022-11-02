@@ -52,6 +52,13 @@ body {
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
 }
+.wrap a {
+  text-decoration: none;
+  color: black;
+}
+.wrap a:hover {
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 308px) {
   .wrap {
